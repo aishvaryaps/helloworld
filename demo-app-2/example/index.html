@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/signalfx.css">
+</head>
+
+<body>
+  <div class="graph"></div>
+  <!-- Sample UI for Custom metrics-->
+  <div class="textsignalfx">Project 2</div>
+  <form>
+	
+	<div class="request-loader">
+   Application 2
+    </div>
+  </form>
+  <script>
+    function sendRequest() {
+      fetch('/test') // Call the fetch function passing the url of the API as a parameter
+        .then(function (data) {
+          console.log(data)
+        })
+        .catch(function (err) {
+          console.log(err)
+        });
+    }
+  </script>
+</body>
+
+</html>
