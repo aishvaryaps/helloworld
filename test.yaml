@@ -1,0 +1,15 @@
+formatVersion: 1
+inputs:
+  vmName:
+    type: string
+resources:
+  ApplicationVM:
+    type: Cloud.Machine
+    metadata:
+      layoutPosition:
+        - 0
+        - 0
+    properties:
+      image: ubuntu-16
+      flavor: micro
+      newName: 'test'
