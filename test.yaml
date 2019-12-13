@@ -12,4 +12,4 @@ resources:
     properties:
       image: ubuntu-16
       flavor: micro
-      newName: 'test'
+      newName: '${input.vmName}'
