@@ -1,16 +1,12 @@
 formatVersion: 1
-inputs:
-  vmName:
-    type: string
+inputs: {}
 resources:
-  ApplicationVM:
-    type: Cloud.Machine
+  Cloud_AWS_EC2_Instance_1:
+    type: Cloud.AWS.EC2.Instance
     metadata:
       layoutPosition:
         - 0
         - 0
     properties:
       image: ubuntu-16
-      name: test
-      flavor: micro
-      newName: '${input.vmName}'
+      flavor: small
