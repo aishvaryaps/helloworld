@@ -11,5 +11,6 @@ resources:
         - 0
     properties:
       image: ubuntu-16
+      name: test
       flavor: micro
       newName: '${input.vmName}'
