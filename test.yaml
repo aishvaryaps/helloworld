@@ -1,4 +1,4 @@
-formatVersion: 1
+formatVersion: 2
 inputs: {}
 resources:
   Cloud_AWS_EC2_Instance_1:
